@@ -71,10 +71,10 @@ const SavedDonatedCard = ({ savedData }) => {
   };
   return (
     <div>
-      <div className={`${bgColor()} flex rounded-xl`}>
-        <div className="w-80">
+      <div className={`${bgColor()} flex flex-col md:flex-row rounded-xl`}>
+        <div className="md:w-80">
           <img
-            className="w-full rounded-l-xl h-full object-cover"
+            className="md:w-full md:rounded-l-xl rounded-t-xl md:rounded-tr-none h-full object-cover"
             src={picture}
             alt={`Image Of ${title}`}
           />

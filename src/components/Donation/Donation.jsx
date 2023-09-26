@@ -20,8 +20,8 @@ const Donation = () => {
     setSliceData(localData.length);
   }
   return (
-    <div className="pt-16 pb-24">
-      <div className="container mx-auto px-8 grid md:grid-cols-2 gap-6">
+    <div className="lg:pt-16 md:pt-6 pb-24">
+      <div className="container mx-auto px-8 grid lg:grid-cols-2 gap-6">
         {localData.slice(0, sliceData).map((savedData) => (
           <SavedDonatedCard
             key={savedData.id}
