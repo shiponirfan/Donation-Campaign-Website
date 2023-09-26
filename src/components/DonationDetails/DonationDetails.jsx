@@ -23,15 +23,15 @@ const DonationDetails = () => {
     }
   };
   const handleSuccessMessage = () => {
-        saveToLocalStorage(getId)
-      swal.fire({
-        title: 'Donation Successfully Received!',
-        text: 'Thank You for Making a Positive Impact!',
-        icon: 'success',
-        confirmButtonText: "Go Back",
-        buttonsStyling: false
+    saveToLocalStorage(getId);
+    swal.fire({
+      title: "Donation Successfully Received!",
+      text: "Thank You for Making a Positive Impact!",
+      icon: "success",
+      confirmButtonText: "Go Back",
+      buttonsStyling: false,
     });
-  }
+  };
   return (
     <div className="container mx-auto px-8 pt-12 pb-24">
       <div className="h-[700px] w-full relative mb-14">
@@ -42,7 +42,7 @@ const DonationDetails = () => {
         />
         <div className="absolute bottom-0 left-0 p-9 bg-black bg-opacity-50 w-full rounded-b-xl">
           <button
-          onClick={handleSuccessMessage}
+            onClick={handleSuccessMessage}
             className={`${btnColor()} text-xl font-semibold py-5 px-7 rounded-lg hover:bg-opacity-90 text-white`}
           >
             Donate ${donate}
