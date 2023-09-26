@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/NtQ1wgD/health.jpg",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#aec7ff",
+    "card_bg": "#d9e5ff",
+    "text_button_bg": "#0052FF",
+    "description": "Provide clean and safe drinking water to underprivileged children in need.",
+    "donate": 100
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/kmcGg31/education.jpg",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#ffc4c5",
+    "card_bg": "#ffe3e4",
+    "text_button_bg": "#FF444A",
+    "description": "Support quality education initiatives to empower young minds and build a brighter future.",
+    "donate": 80
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/Ttrs8s4/clothing.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#d4ecc2",
+    "card_bg": "#ebf6e2",
+    "text_button_bg": "#79C23F",
+    "description": "Collect and distribute gently used clothing to those in need within our community.",
+    "donate": 60
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/j68L1wF/food.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#fdd2c4",
+    "card_bg": "#feeae4",
+    "text_button_bg": "#F87147",
+    "description": "Ensure access to nutritious food for all and combat hunger in our neighborhoods.",
+    "donate": 120
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/vsY1PzC/Hunger-Relief.jpg",
+    "title": "Hunger Relief",
+    "category": "Food",
+    "category_bg": "#fdd2c4",
+    "card_bg": "#feeae4",
+    "text_button_bg": "#F87147",
+    "description": "Provide meals and support to combat hunger and food insecurity in our community."
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/B3S49nr/Warm-Clothing-Drive.jpg",
+    "title": "Warm Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#d4ecc2",
+    "card_bg": "#ebf6e2",
+    "text_button_bg": "#79C23F",
+    "description": "Collect warm clothing items for the winter season and distribute them to those in need."
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/ThmYcxn/Scholarship-Program.jpg",
+    "title": "Scholarship Program",
+    "category": "Education",
+    "category_bg": "#ffc4c5",
+    "card_bg": "#ffe3e4",
+    "text_button_bg": "#FF444A",
+    "description": "Provide scholarships to bright students to pursue their dreams of higher education."
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/vBGhVRk/Safe-Healthcare.jpg",
+    "title": "Safe Healthcare",
+    "category": "Health",
+    "category_bg": "#aec7ff",
+    "card_bg": "#d9e5ff",
+    "text_button_bg": "#0052FF",
+    "description": "Support medical facilities and ensure access to quality healthcare for vulnerable communities."
+  },
+
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/pdQfZmw/Safe-Waterfor-Communities.jpg",
+    "title": "Safe Water for Communities",
+    "category": "Health",
+    "category_bg": "#aec7ff",
+    "card_bg": "#d9e5ff",
+    "text_button_bg": "#0052FF",
+    "description": "Help us provide clean and safe drinking water to improve health in underserved communities."
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/nPxsyGS/Educatefora-Brighter-Tomorrow.jpg",
+    "title": "Brighter Tomorrow Education",
+    "category": "Education",
+    "category_bg": "#ffc4c5",
+    "card_bg": "#ffe3e4",
+    "text_button_bg": "#FF444A",
+    "description": "Support quality education initiatives to empower young minds and shape a brighter future."
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/tcZ4vD8/Clothe-Thosein-Need.jpg",
+    "title": "Clothe Those in Need",
+    "category": "Clothing",
+    "category_bg": "#d4ecc2",
+    "card_bg": "#ebf6e2",
+    "text_button_bg": "#79C23F",
+    "description": "Join our mission to collect and distribute clothing to those in need within our community."
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/YBDwwLg/End-Hunger-Promote-Health.jpg",
+    "title": "End Hunger, Promote Health",
+    "category": "Food",
+    "category_bg": "#fdd2c4",
+    "card_bg": "#feeae4",
+    "text_button_bg": "#F87147",
+    "description": "Support our efforts to ensure access to nutritious food for all and eliminate hunger.",
+    "donate": 95
+  }
+]
