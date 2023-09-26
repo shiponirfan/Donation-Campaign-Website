@@ -7,7 +7,7 @@
     "category_bg": "#aec7ff",
     "card_bg": "#d9e5ff",
     "text_button_bg": "#0052FF",
-    "description": "Provide clean and safe drinking water to underprivileged children in need.",
+    "description": "Our mission is to provide a lifeline to underprivileged children by ensuring they have access to clean and safe drinking water. In many parts of the world, waterborne diseases claim countless young lives, hindering their growth and potential. Your generous contribution will play a pivotal role in combating this crisis. By donating, you're not just quenching thirst; you're nurturing the health and future prospects of these vulnerable young lives. Join us in this noble endeavor and be a part of the positive change that every child deserves.",
     "donate": 100
   },
   {
@@ -18,7 +18,7 @@
     "category_bg": "#ffc4c5",
     "card_bg": "#ffe3e4",
     "text_button_bg": "#FF444A",
-    "description": "Support quality education initiatives to empower young minds and build a brighter future.",
+    "description": "Empowering the next generation with the gift of quality education is a cornerstone of progress. Your support will fuel initiatives that not only impart knowledge but also inspire and shape young minds. Education is the key to a brighter future, filled with opportunities and success. By donating, you're not just funding classrooms; you're investing in the growth of individuals and communities. Join us in our commitment to provide access to education and be a catalyst for lasting change.",
     "donate": 80
   },
   {
@@ -29,8 +29,8 @@
     "category_bg": "#d4ecc2",
     "card_bg": "#ebf6e2",
     "text_button_bg": "#79C23F",
-    "description": "Collect and distribute gently used clothing to those in need within our community.",
-    "donate": 60
+    "description": "Join our mission to collect gently used clothing and extend a helping hand to those in need within our community. The impact of a warm coat or a comfortable pair of shoes goes beyond just physical comfort; it restores dignity and hope. Your donation will provide warmth during cold winters, comfort during challenging times, and a renewed sense of self-worth. In contributing, you're not just giving away clothes; you're wrapping individuals in kindness and compassion. Together, we can make a significant difference in the lives of those facing adversity.",
+    "donate": 160
   },
   {
     "id": 4,
@@ -40,7 +40,7 @@
     "category_bg": "#fdd2c4",
     "card_bg": "#feeae4",
     "text_button_bg": "#F87147",
-    "description": "Ensure access to nutritious food for all and combat hunger in our neighborhoods.",
+    "description": "Hunger is a stark reality in many neighborhoods, but together, we can change that. Your donation will ensure that everyone, regardless of their circumstances, has access to nutritious food. By supporting us, you're not just putting food on the table; you're eliminating food insecurity, improving health, and strengthening communities. Join our mission to end hunger and promote healthier lives for all. Your contribution will be a vital part of this transformative journey.",
     "donate": 120
   },
   {
@@ -51,7 +51,8 @@
     "category_bg": "#fdd2c4",
     "card_bg": "#feeae4",
     "text_button_bg": "#F87147",
-    "description": "Provide meals and support to combat hunger and food insecurity in our community."
+    "description": "Hunger and food insecurity affect countless individuals and families in our community. Your support will be a lifeline for those struggling to put food on their tables. By donating, you're not just providing meals; you're offering hope and a chance for a better tomorrow. Together, we can make sure that no one goes to bed hungry. Join us in our commitment to combat hunger and be a beacon of compassion in our community.",
+    "donate": 140
   },
   {
     "id": 6,
@@ -61,7 +62,8 @@
     "category_bg": "#d4ecc2",
     "card_bg": "#ebf6e2",
     "text_button_bg": "#79C23F",
-    "description": "Collect warm clothing items for the winter season and distribute them to those in need."
+    "description": "Winter can be harsh, especially for those without warm clothing. Join us in collecting warm clothing items for the winter season and spreading the warmth to those less fortunate. Your contribution will provide not just physical warmth but also emotional comfort. By donating, you're not just giving clothes; you're wrapping individuals in care and compassion. Together, we can make a significant impact during the coldest months and bring smiles to many faces.",
+    "donate": 70
   },
   {
     "id": 7,
@@ -71,7 +73,8 @@
     "category_bg": "#ffc4c5",
     "card_bg": "#ffe3e4",
     "text_button_bg": "#FF444A",
-    "description": "Provide scholarships to bright students to pursue their dreams of higher education."
+    "description": "Education is a powerful tool for transformation, and your support can make dreams come true. Your donation will provide scholarships to bright and deserving students, enabling them to pursue higher education. By contributing, you're not just funding education; you're nurturing talent, fostering innovation, and building a brighter future for individuals and society. Join us in our mission to empower young minds and be a driving force behind positive change.",
+    "donate": 160
   },
   {
     "id": 8,
@@ -81,7 +84,8 @@
     "category_bg": "#aec7ff",
     "card_bg": "#d9e5ff",
     "text_button_bg": "#0052FF",
-    "description": "Support medical facilities and ensure access to quality healthcare for vulnerable communities."
+    "description": "Quality healthcare is a fundamental right, but many vulnerable communities lack access to it. Your support will make a significant impact by bolstering medical facilities and ensuring equitable access to quality healthcare. By donating, you're not just supporting hospitals; you're saving lives and improving healthcare outcomes for those in need. Join us in our commitment to provide safe healthcare, and together, we can make a profound difference in the well-being of our communities.",
+    "donate": 110
   },
 
   {
@@ -92,7 +96,8 @@
     "category_bg": "#aec7ff",
     "card_bg": "#d9e5ff",
     "text_button_bg": "#0052FF",
-    "description": "Help us provide clean and safe drinking water to improve health in underserved communities."
+    "description": "Access to clean and safe drinking water is a basic necessity, yet it eludes many underserved communities. Your support will help us bridge this gap and improve the health and well-being of countless individuals. By donating, you're not just quenching thirst; you're preventing waterborne diseases and enhancing overall quality of life. Join us in our mission to provide clean and safe drinking water, and together, we can bring positive change to underserved communities.",
+    "donate": 90
   },
   {
     "id": 10,
@@ -102,7 +107,8 @@
     "category_bg": "#ffc4c5",
     "card_bg": "#ffe3e4",
     "text_button_bg": "#FF444A",
-    "description": "Support quality education initiatives to empower young minds and shape a brighter future."
+    "description": "Quality education is a powerful agent of change, and your contribution can shape a brighter future. By supporting initiatives that empower young minds, you're investing in the leaders and innovators of tomorrow. Education opens doors to opportunities and empowers individuals to overcome challenges. By donating, you're not just funding classrooms; you're nurturing dreams and fostering a society where potential knows no bounds. Join us in our commitment to provide quality education and be a catalyst for a brighter tomorrow.",
+    "donate": 180
   },
   {
     "id": 11,
@@ -112,7 +118,8 @@
     "category_bg": "#d4ecc2",
     "card_bg": "#ebf6e2",
     "text_button_bg": "#79C23F",
-    "description": "Join our mission to collect and distribute clothing to those in need within our community."
+    "description": "Our mission is simple yet impactful: collect and distribute clothing to those facing hardships in our community. Your support will provide warmth, comfort, and dignity to individuals in need. By donating, you're not just giving clothes; you're wrapping individuals in care and compassion. Together, we can make a significant difference in the lives of those facing adversity. Join us in our mission to clothe those in need and be a beacon of hope in our community.",
+    "donate": 150
   },
   {
     "id": 12,
@@ -122,7 +129,7 @@
     "category_bg": "#fdd2c4",
     "card_bg": "#feeae4",
     "text_button_bg": "#F87147",
-    "description": "Support our efforts to ensure access to nutritious food for all and eliminate hunger.",
+    "description": "Hunger is a pressing issue, but together, we can make a difference. Your support will help us eliminate hunger and promote better health for all. By donating, you're not just providing food; you're ensuring equitable access to nutritious meals, fostering healthier communities, and building a brighter future. Join us in our efforts to end hunger, promote health, and be a part of the positive change our communities urgently need.",
     "donate": 95
   }
 ]
