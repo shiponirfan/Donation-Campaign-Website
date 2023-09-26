@@ -6,3 +6,9 @@
 body{
   font-family: 'Inter', sans-serif;
 }
+
+li a.active{
+  color: #FF444A;
+  font-weight: bold;
+  border-bottom: 2px solid #FF444A;
+}
