@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const Header = ({ location }) => {
   const menuLinks = (
@@ -15,7 +15,6 @@ const Header = ({ location }) => {
       </li>
     </>
   );
-
   return (
     <div>
       <div className="flex justify-center">
@@ -66,6 +65,6 @@ const Header = ({ location }) => {
   );
 };
 Header.propTypes = {
-    location: PropTypes.object,
-}
+  location: PropTypes.object,
+};
 export default Header;
