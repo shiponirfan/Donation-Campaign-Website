@@ -1,8 +1,13 @@
-# React + Vite
+# Donation Campaign Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [ Live Website link](https://donation-campaign-shipon.netlify.app/)
 
-Currently, two official plugins are available:
+Click here for the Live Website URL: [https://donation-campaign-shipon.netlify.app/](https://donation-campaign-shipon.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Project Features
+
+- Added a dynamic Search button to search donation categories
+- Added a Statistics page to show the donation percentage
+- Displaying the donated details on the donation page
+- If the donation is more than 4 then the Show  "See All Button" on the donation page is appears
+- Added 404 page not found page
