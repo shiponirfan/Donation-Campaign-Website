@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from "sweetalert2";
 import { saveToLocalStorage } from "../../utilities/localStorage";
+import { useState } from "react";
 
 const DonationDetails = () => {
   const donationDetails = useLoaderData();
@@ -8,6 +9,7 @@ const DonationDetails = () => {
   const getId = parseInt(id);
   const donation = donationDetails.find((donation) => donation.id === getId);
   const { picture, donate, title, description, text_button_bg } = donation;
+  const [donated, setDonated] = useState(false);
   const btnColor = () => {
     switch (text_button_bg) {
       case "#0052FF":
@@ -24,13 +26,24 @@ const DonationDetails = () => {
   };
   const handleSuccessMessage = () => {
     saveToLocalStorage(getId);
-    swal.fire({
-      title: "Donation Successfully Received!",
-      text: "Thank You for Making a Positive Impact!",
-      icon: "success",
-      confirmButtonText: "Go Back",
-      buttonsStyling: false,
-    });
+    if (donated) {
+      swal.fire({
+        title: "Already Donated",
+        text: "Thank You for Making a Positive Impact!",
+        icon: "warning",
+        confirmButtonText: "Go Back",
+        buttonsStyling: false,
+      });
+    } else {
+      swal.fire({
+        title: "Donation Successfully Received!",
+        text: "Thank You for Making a Positive Impact!",
+        icon: "success",
+        confirmButtonText: "Go Back",
+        buttonsStyling: false,
+      });
+      setDonated(true);
+    }
   };
   return (
     <div className="container mx-auto px-8 pt-12 pb-24">

@@ -20,7 +20,10 @@ const Donation = () => {
     setSliceData(localData.length);
   }
   return (
-    <div className="lg:pt-16 md:pt-6 pb-24">
+    <div>
+      {
+        localData.length ? <>
+              <div className="lg:pt-16 md:pt-6 pb-24">
       <div className="container mx-auto px-8 grid lg:grid-cols-2 gap-6">
         {localData.slice(0, sliceData).map((savedData) => (
           <SavedDonatedCard
@@ -37,6 +40,14 @@ const Donation = () => {
           See All
         </button>
       </div>
+    </div>
+        </> : <>
+          <div className="container mx-auto flex flex-col px-4 text-center justify-center items-center">
+            <img className="w-96" src="./charity.png" alt="" />
+            <h2 className="md:text-2xl text-lg font-bold">Explore Your Donation History Here</h2>
+          </div>
+        </>
+      }
     </div>
   );
 };

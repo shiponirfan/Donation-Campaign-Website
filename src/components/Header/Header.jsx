@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 const Header = ({ location }) => {
   const menuLinks = (
@@ -7,22 +8,35 @@ const Header = ({ location }) => {
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
-      <li className="ml-12">
+      <li className="md:ml-12">
         <NavLink to="/donations">Donation</NavLink>
       </li>
-      <li className="ml-12">
+      <li className="md:ml-12">
         <NavLink to="/statistics">Statistics</NavLink>
       </li>
     </>
   );
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 300) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <div>
-      <div className="flex justify-center">
-        <div
-          className={`${
-            location.pathname === "/" ? "fixed" : ""
-          } py-10 navbar container px-8`}
-        >
+      <div
+        className={`${
+          location.pathname === "/"
+            ? colorChange
+              ? "fixed py-2 bg-white z-50 shadow"
+              : "fixed"
+            : ""
+        } w-full flex justify-center py-10 duration-500`}
+      >
+        <div className="navbar container px-8">
           <div className="navbar-start">
             <Link to="/">
               <img src="/Logo.png" alt="Donation Logo" />
